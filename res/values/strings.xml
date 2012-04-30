@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">P85工具箱</string>
+    <string name="powermanager">电源管理</string>
+    <string name="shutdown">关机</string>
+    <string name="shutdownDetail">快速关闭您的设备，可能会丢失数据</string>
+    <string name="reboot">重启</string>
+    <string name="rebootDetail">重新启动您的设备</string>
+    <string name="recovery">恢复</string>
+    <string name="recoveryDetail">进入Recovery模式，可以备份还原数据或刷新固件</string>
+    <string name="rommanager">固件管理</string>
+    <string name="flashrecovery">刷入Recovery</string>
+    <string name="flashrecoveryDetail">刷入内置卡根目录recovery.img</string>
+    <string name="ota">更换开机动画</string>
+    <string name="otaDetail">将开机动画bootanimation.zip放到内置卡根目录后执行</string>
+    <string name="appinfo">程序信息</string>
+    <string name="appversion">P85工具箱v1.1</string>
+    <string name="website">http://weibo.com/zbj543720</string>
+
+</resources>

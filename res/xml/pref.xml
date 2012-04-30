@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/powermanager">
+        <Preference android:key="shutdown" android:summary="@string/shutdownDetail" android:title="@string/shutdown" android:order="0"/>
+        <Preference android:key="reboot" android:summary="@string/rebootDetail" android:title="@string/reboot" android:order="1"/>
+        <Preference android:key="recovery" android:summary="@string/recoveryDetail" android:title="@string/recovery" android:order="2"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/rommanager">
+        <Preference android:key="flashrecovery" android:summary="@string/flashrecoveryDetail" android:title="@string/flashrecovery" android:order="3"/>
+        <Preference android:key="ota" android:summary="@string/otaDetail" android:title="@string/ota" android:order="4"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/appinfo">
+        <Preference android:summary="@string/website" android:title="@string/appversion" android:order="5" android:key="appinfo"/>
+        
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
